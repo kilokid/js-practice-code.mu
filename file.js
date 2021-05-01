@@ -406,6 +406,6 @@ switch (number) {
 // alert -- показать сообщение
 // prompt  -- спросить что-то (prompt('Как твои дела?', ''));
 
-let user = 'Artem';
-let surnameUser = 'Lomov';
-alert(`Привет, ${user} ${surnameUser}`)
+// let user = 'Artem';
+// let surnameUser = 'Lomov';
+// alert(`Привет, ${user} ${surnameUser}`)
