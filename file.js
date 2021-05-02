@@ -33,6 +33,34 @@ for (let i = 0; i < 2; i++) {
   }
 }
 
+/*
+// Тренировка с разными циклами 2 задание 
+// let i = 0
+// while (i < 2) {
+//   let a = prompt('Один из последних просмотренных фильмов?', '');
+//   let b = prompt('На сколько оцените его?', '');
+//   i++;
+
+//   if (a != '' && b != '' && a != null && b != null && a.length < 50) {
+//     personalMovieDB.movies[a] = b;
+//   } else {
+//     i--;
+//   }
+// }
+
+let i = 0;
+do {
+  let a = prompt('Один из последних просмотренных фильмов?', '');
+  let b = prompt('На сколько оцените его?', '');
+  i++;
+  if (a != '' && b != '' && a != null && b != null && a.length < 50) {
+    personalMovieDB.movies[a] = b;
+  } else {
+    i--;
+  }
+} while (i < 2);
+*/
+
 console.log(personalMovieDB);
 
 
